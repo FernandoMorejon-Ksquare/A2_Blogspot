@@ -1,0 +1,56 @@
+html {
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+nav {
+    border-bottom: 1px solid black;
+
+}
+
+.menu ul {
+    list-style-type: none;
+    padding-left: 0;
+
+}
+
+.item-menu {
+    display: inline-block;
+    font-size: larger;
+}
+
+.item-menu a::after {
+    display: inline-block;
+    color: #000;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}
+
+.places {
+    margin-left: 75%;
+
+    text-align: left;
+    
+}
+
+p {
+    margin-left: 16em;
+    margin-right: 16em;
+}
+
+aside {
+    
+    text-align: left;
+    font-style: italic;
+    color: #29627e;
+}
+
+.block {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 1fr;
+}
+
+
