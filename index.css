@@ -3,14 +3,25 @@ html {
     text-align: center;
 }
 
+h1 {
+    color: blue;
+    background-color: aliceblue;
+}
+h2 {
+    color: teal;
+    background-color: aliceblue;
+}
+
 nav {
     border-bottom: 1px solid black;
+
 
 }
 
 .menu ul {
     list-style-type: none;
     padding-left: 0;
+    background-color: white;
 
 }
 
